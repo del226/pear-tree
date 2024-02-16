@@ -20,7 +20,8 @@ endif
 let b:undo_ftplugin .= 'unlet! b:pear_tree_did_java_ftplugin b:pear_tree_pairs'
 
 let b:pear_tree_pairs = extend(deepcopy(g:pear_tree_pairs), {
-            \ '/\*\*': {'closer': '\*/'}
+            \ '/\*\*': {'closer': '\*/'},
+            '*<': {'closer': 'E>', 'not_at': ['^[0-9\\s]']}
             \ }, 'keep')
 
 let &cpoptions = s:save_cpo
