@@ -1,4 +1,4 @@
-Pear Tree
+Pear Tree (Forked from `'tmsvg/pear-tree`
 =========
 A painless, powerful Vim auto-pair plugin.
 
@@ -16,7 +16,7 @@ Follow the instructions provided by your plugin manager. Using
 following in your vimrc and run `:PlugInstall`
 
 ```vim
-Plug 'tmsvg/pear-tree'
+Plug 'DerivedFunction/pear-tree'
 ```
 
 You can also install Pear Tree manually by placing the files in their
