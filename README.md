@@ -1,4 +1,4 @@
-Pear Tree (Forked from `'tmsvg/pear-tree`
+Pear Tree (Forked from `'tmsvg/pear-tree'`
 =========
 A painless, powerful Vim auto-pair plugin.
 
